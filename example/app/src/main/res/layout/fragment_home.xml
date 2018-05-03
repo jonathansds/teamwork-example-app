@@ -1,0 +1,49 @@
+<LinearLayout
+    android:id="@+id/fragment_home_main_layout"
+    style="@style/Example.Screens"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment">
+    
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/fragment_home_toolbar"
+        style="@style/Example.Toolbar"
+        app:layout_scrollFlags="enterAlways">
+    
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/fragment_home_image_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                app:srcCompat="@mipmap/example_ic_launcher"/>
+        
+            <TextView
+                android:id="@+id/fragment_home_screen_title"
+                style="@style/Example.Toolbar.Title"
+                android:layout_marginStart="@dimen/example_spacing_title_content_horizontal"
+                android:layout_toEndOf="@+id/fragment_home_image_logo"
+                android:layout_centerVertical="true"
+                android:text="@string/home_screen_title"/>
+    
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/fragment_home_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fragment_home_projects_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"/>
+        
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

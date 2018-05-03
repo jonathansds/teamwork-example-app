@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- ************************************************ -->
+<!-- ********************* APP ********************** -->
+<!-- ************************************************ -->
+
+    <color name="colorAccent">#FFCC2C</color>
+    <color name="colorAccentLight">#FFECB3</color>
+    
+    <color name="colorPrimary">#90A4AE</color>
+    <color name="colorPrimaryDark">#1B1D1F</color>
+    <color name="colorPrimaryLight">#CFD8DC</color>
+    <color name="navigationBarColor">#FFFFFF</color>
+    <color name="listLoadingBackgroundColor">#F4F3F3</color>
+    <color name="listLoadingProgressColor">#768b95</color>
+    <color name="notificationIconBackground">#FF03374E</color>
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ****************** TOOLBARS ******************** -->
+    <!-- ************************************************ -->
+
+    <color name="example_toolbar_background">#263238</color>
+    <color name="example_toolbar_title">#FFFFFF</color>
+    <color name="example_toolbar_text">@color/colorAccent</color>
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************* SCREENS ******************** -->
+    <!-- ************************************************ -->
+    
+    <color name="example_background_transparent">#00000000</color>
+    <color name="example_background_light">#FFFFFF</color>
+    <color name="example_background_primary_light">@color/colorPrimaryLight</color>
+    <color name="example_background_semi_dark">#06374F</color>
+    <color name="example_background_dark">#263238</color>
+    <color name="example_background_black">#000000</color>
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************** LABELS ******************** -->
+    <!-- ************************************************ -->
+    
+    <color name="example_default_label_dark">#263238</color>
+    <color name="example_default_label_semi_dark">#06374F</color>
+    <color name="example_default_label_light">#FFFFFF</color>
+    <color name="example_default_label_dialogs">#8A000000</color>
+    <color name="example_default_label_primary">@color/colorPrimary</color>
+    <color name="example_default_label_primary_light">@color/colorPrimaryLight</color>
+    <color name="example_default_label_accent">@color/colorAccent</color>
+    <color name="example_default_label_red">#D0011B</color>
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ***************** TASK STATUS ****************** -->
+    <!-- ************************************************ -->
+    
+    <color name="example_task_status_late">#d84641</color>
+    <color name="example_task_status_started">#2db760</color>
+    <color name="example_task_status_today">#ede250</color>
+    <color name="example_task_status_no_date">#adb5bc</color>
+    <color name="example_task_status_completed">#2c81cc</color>
+    <color name="example_task_status_invalid">#68228e</color>
+    <color name="example_task_status_other">#86d6c7</color>
+    
+
+</resources>

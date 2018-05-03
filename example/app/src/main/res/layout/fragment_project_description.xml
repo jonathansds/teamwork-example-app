@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/fragment_project_description_main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Example.Screens"
+    tools:context=".fragment.ProjectDescriptionFragment">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/example_padding_views"
+        android:scrollbars="none">
+        
+        <TextView
+            android:id="@+id/fragment_project_description_description"
+            style="@style/Example.Project.Description" />
+    
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<resources>
+    <!-- ************************************************ -->
+    <!-- ****************** APPLICATION ***************** -->
+    <!-- ************************************************ -->
+    
+    <string name="app_name">TeamWork</string>
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************** MENU ********************** -->
+    <!-- ************************************************ -->
+    
+    <string name="menu_home">Projects</string>
+    <string name="menu_companies">Companies</string>
+    <string name="menu_people">People</string>
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************** UTILS ********************* -->
+    <!-- ************************************************ -->
+    
+    <string name="utils_full_name">%s %s</string>
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ***************** COMPONENTS ******************* -->
+    <!-- ************************************************ -->
+    
+    <string name="components_list_loading_load_more">Loading more&#8230;</string>
+    <string name="components_list_loading_retry">Retry</string>
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- *************** SCREEN TITLES ****************** -->
+    <!-- ************************************************ -->
+    
+    <string name="home_screen_title">Projects</string>
+    <string name="companies_screen_title">Companies</string>
+    <string name="people_screen_title">People</string>
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************* PROJECT ******************** -->
+    <!-- ************************************************ -->
+    
+    <string name="project_tab_project_description">Description</string>
+    <string name="project_tab_project_summary">Summary</string>
+    <string name="project_label_my_tasks">My Tasks</string>
+    <string name="project_task_status_late">Late</string>
+    <string name="project_task_status_invalid_date">Invalid Date</string>
+    <string name="project_task_status_no_date">No Date</string>
+    <string name="project_task_status_today">Today</string>
+    <string name="project_task_status_started">Started</string>
+    <string name="project_task_status_completed">Completed</string>
+    <string name="project_task_status_other">Other</string>
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************* MESSAGES ******************* -->
+    <!-- ************************************************ -->
+    
+    <string name="message_no_internet">Please check your internet connection.</string>
+    <string name="message_timeout">Server took too long to answer. Please try again.</string>
+    <string name="message_unauthorized_access">Ops, looks like login needs to be performed.</string>
+    <string name="message_unknown_error">An error occurred please try again.</string>
+    <string name="message_success">Request successfully performed.</string>
+    
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_home"
+        android:enabled="true"
+        android:icon="@drawable/example_menu_ic_projects"
+        android:title="@string/menu_home"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_item_companies"
+        android:enabled="true"
+        android:icon="@drawable/example_menu_ic_companies"
+        android:title="@string/menu_companies"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_item_people"
+        android:enabled="true"
+        android:icon="@drawable/example_menu_ic_people"
+        android:title="@string/menu_people"
+        app:showAsAction="withText" />
+
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/fragment_project_tasks_main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Example.Screens"
+    tools:context=".fragment.ProjectTasksFragment">
+    
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/fragment_project_tasks_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/example_padding_layout">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/fragment_project_tasks_label_my_tasks"
+                style="@style/Example.Project.MyTasksLabel"
+                android:text="@string/project_label_my_tasks"/>
+    
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/fragment_project_tasks_chart"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="@dimen/example_spacing_block"
+                android:layout_below="@+id/fragment_project_tasks_label_my_tasks"
+                android:layout_centerHorizontal="true"/>
+            
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

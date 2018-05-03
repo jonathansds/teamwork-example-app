@@ -1,0 +1,250 @@
+<resources>
+    
+    <!-- ************************************************ -->
+    <!-- ********************* APP ********************** -->
+    <!-- ************************************************ -->
+    
+    <style name="Example" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/Example.Toolbar</item>
+    </style>
+    
+    <style name="Example.FullScreen" parent="Example">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="Example.Transparent" parent="Example">
+        <item name="android:background">@color/example_background_transparent</item>
+        <item name="android:windowBackground">@color/example_background_transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    <style name="Example.FullScreen.Transparent" parent="Example.FullScreen">
+        <item name="android:background">@color/example_background_transparent</item>
+        <item name="android:windowBackground">@color/example_background_transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ****************** TOOLBARS ******************** -->
+    <!-- ************************************************ -->
+    
+    
+    <style name="Example.Toolbar">
+        <item name="android:background">@color/example_toolbar_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:titleTextStyle">@style/Example.Toolbar.Title</item>
+    </style>
+    
+    <style name="Example.Toolbar.Title" parent="Example.Labels">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/example_toolbar_title</item>
+    </style>
+    
+    <style name="Example.Toolbar.Text" parent="Example.Labels">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/example_toolbar_text</item>
+    </style>
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************* SCREENS ******************** -->
+    <!-- ************************************************ -->
+    
+    <style name="Example.Screens">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/example_background_light</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- **************** LIST LOADING ****************** -->
+    <!-- ************************************************ -->
+    
+    <style name="Example.ListLoading.Loading" parent="Example.Labels.Small">
+        <item name="android:textColor">@color/listLoadingProgressColor</item>
+    </style>
+    
+    <style name="Example.ListLoading.Retry" parent="Example.Labels.Small">
+    </style>
+    
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************* LABELS ********************* -->
+    <!-- ************************************************ -->
+    
+    <style name="Example.Labels">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/example_default_label_dark</item>
+    </style>
+    
+    <style name="Example.Labels.Giant" parent="Example.Labels">
+        <item name="android:textSize">38sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    
+    <style name="Example.Labels.Big" parent="Example.Labels">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    
+    <style name="Example.Labels.Medium" parent="Example.Labels">
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="Example.Labels.Normal" parent="Example.Labels">
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="Example.Labels.Small" parent="Example.Labels">
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="Example.Labels.Micro" parent="Example.Labels">
+        <item name="android:textSize">10sp</item>
+    </style>
+    
+    <style name="Example.Labels.EmptyList" parent="Example.Labels.Normal">
+        <item name="android:textColor">@color/example_default_label_semi_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Example.Labels.EmptyList.Micro" parent="Example.Labels.Micro">
+        <item name="android:textColor">@color/example_default_label_semi_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Example.Titles">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/example_default_label_light</item>
+    </style>
+    
+    <style name="Example.Titles.Normal" parent="Example.Titles">
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="Example.Titles.Big" parent="Example.Titles">
+        <item name="android:textSize">25sp</item>
+    </style>
+    
+    <style name="Example.Titles.Small" parent="Example.Titles">
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="Example.Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/example_default_label_dark</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************* PROJECTS ******************* -->
+    <!-- ************************************************ -->
+    
+    <style name="Example.Projects.Name" parent="Example.Labels.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************* PROJECT ******************** -->
+    <!-- ************************************************ -->
+    
+    <style name="Example.Project.Title" parent="Example.Titles.Small">
+    </style>
+    
+    <style name="Example.Project.Description" parent="Example.Labels.Medium">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    
+    <style name="Example.Project.MyTasksLabel" parent="Example.Titles.Big">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/example_default_label_semi_dark</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************* COMPANIES ******************* -->
+    <!-- ************************************************ -->
+    
+    <style name="Example.Companies.Name" parent="Example.Labels.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- ************************************************ -->
+    <!-- ******************** PEOPLE ********************* -->
+    <!-- ************************************************ -->
+    
+    <style name="Example.People.UserName" parent="Example.Labels.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="Example.People.UserNickname" parent="Example.Labels.Normal">
+        <item name="android:textColor">@color/example_default_label_primary</item>
+    </style>
+    
+    
+</resources>
